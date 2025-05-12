@@ -43,33 +43,7 @@ Edite o arquivo `src/config/settings.py` e substitua o valor de `TOKEN` pelo seu
 ## Executando o Bot
 
 ```bash
-python src/bot.py
-```
-
-## Estrutura do Projeto
-
-```
-bot-python-telegram/
-├── src/
-│   ├── config/
-│   │   └── settings.py
-│   ├── handlers/
-│   │   ├── menu.py
-│   │   ├── transacao.py
-│   │   ├── relatorio.py
-│   │   ├── fechamento.py
-│   │   ├── configuracoes.py
-│   │   ├── meta.py
-│   │   ├── saldo.py
-│   │   └── geral.py
-│   ├── models/
-│   │   └── transacao.py
-│   ├── utils/
-│   │   └── helpers.py
-│   └── bot.py
-├── bot_data/
-├── requirements.txt
-└── README.md
+py telegram_bot.py
 ```
 
 ## Contribuindo
